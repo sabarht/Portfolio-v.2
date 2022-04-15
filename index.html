@@ -14,6 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
 
     <title>Saba Rahrotaban Portfolio</title>
@@ -26,31 +30,40 @@
         <li><a href="">contact</a></li>
       </ul>
     </nav>
+
     <main>
       <div class="hero flex-parent">
         <div class="hero-text flex-item">
           <h1>Saba Rahrotaban</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Design, coding and integration of a live API for a weather app as
+            part of a SheCodes final project.
           </p>
         </div>
         <div class="hero-img flex-item">adjsfhkfh a fhfhdfh fafhafau</div>
       </div>
       <section>
-        <h2>Projects</h2>
+        <h2 class="title">Projects</h2>
         <div class="row flex-parent">
-          <div class="flex-item">
+          <div class="flex-item project-card">
             <img src="./image/1597126981801.jpg" alt="" />
-            <p></p>
+            <p>
+              Design, coding and integration of a live API for a weather app as
+              part of a SheCodes final project.This project was build using
+              HTML, CSS, API, Bootstrap and React JS.
+            </p>
             <button class="btn">view code</button>
-            <button>view live</button>
+            <button class="btn">view live</button>
           </div>
           <div class="flex-item">
             <img src="./image/1597126981801.jpg" alt="" />
-            <p></p>
-            <button>view code</button>
-            <button>view live</button>
+            <p>
+              This project was build using HTML, CSS, APIs, Bootstrap and React
+              JS. This application returns multiple definitions of the searched
+              word.
+            </p>
+            <button class="btn">view code</button>
+            <button class="btn">view live</button>
           </div>
         </div>
       </section>
@@ -58,15 +71,35 @@
         <div class="row flex-parent">
           <div class="col flex-item">
             <h2>Let's Connect</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="mailto:sabarht@gmail.com"> sabarht@gmail.com </a>
+            <p>Message me and let's make something together.</p>
+            <a class="email-link" href="mailto:sabarht@gmail.com">
+              sabarht@gmail.com
+            </a>
+            <div>
+              <a href="https://www.linkedin.com/in/saba-rahrotaban-303591200/"
+                ><img class="logo-link" src="./image/icons8-linkedin.svg"
+              /></a>
+              <a href="https://www.linkedin.com/in/saba-rahrotaban-303591200/"
+                ><img class="logo-link" src="./image/icons8-linkedin.svg"
+              /></a>
+            </div>
           </div>
           <div class="col flex-item">
             <form>
-              <input type="text" value="name" />
-              <input type="email" value="email" />
-              <input type="email" value="message" />
-              <input type="submit" value="submit!" />
+              <input class="form-input" type="text" placeholder="Your Name:" />
+              <input
+                class="form-input"
+                type="email"
+                placeholder="Your Email:"
+              />
+              <textarea
+                class="textarea"
+                type="text"
+                placeholder="Your Message:"
+                value="message"
+                name="MESSAGE"
+              ></textarea>
+              <input class="btn btn-submit" type="submit" value="submit!" />
             </form>
           </div>
         </div>
