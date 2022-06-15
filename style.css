@@ -1,9 +1,10 @@
 :root {
   --accent-color: #881111d8;
+  --secondary-color: #870e0e45;
   --darker-neutral-color: #cfcfcf;
+  --neutral-color: #f7f7f7;
   --white-color: #ffffff;
   --text-color: #1f2933;
-  --neutral-color: #f7f7f7;
   --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
   --primary-font: "Montserrat", sans-serif;
   --secondary-font: "Playfair Display", serif;
@@ -83,8 +84,8 @@ img {
   width: 136px;
 }
 .button:hover {
-  color: var(--text-color);
-  background-color: var(--darker-neutral-color);
+  color: var(--accent-color);
+  background-color: var(--secondary-color);
 }
 
 .hero-img {
