@@ -1,6 +1,6 @@
 :root {
-  --accent-color: #881111d8;
-  --secondary-color: #870e0e45;
+  --accent-color: #1f2933;
+  --secondary-color: #1f293329;
   --darker-neutral-color: #cfcfcf;
   --neutral-color: #f7f7f7;
   --white-color: #ffffff;
@@ -164,7 +164,7 @@ img {
   width: 50px;
 }
 .footer {
-  color: var(--white-color);
+  color: var(--text-color);
   margin-top: 120px;
   padding: 24px;
   text-align: center;
